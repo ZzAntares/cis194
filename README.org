@@ -1,0 +1,8 @@
+* About the repo
+
+These are the solutions to the exercises from the course [[http://www.cis.upenn.edu/~cis194/spring13/][CIS 194: Introduction
+to Haskell (Spring 2013)]] taught at the University of Pennsylvania by Brent
+Yorgey.
+
+The =Demo.hs= file is just code to test stuff explained in the lessons, is not
+part of the exercises per se.
