@@ -13,8 +13,8 @@ toDigitsRev n = reverse $ toDigits n
 -- Exercise 2
 -- Iterates a list by two items and passes as parameters to the given function
 mapTwoR :: (Integer -> Integer -> [Integer]) -> [Integer] -> [Integer]
-mapTwoR _ [] = []
-mapTwoR _ (x:[]) = [x]
+mapTwoR _ []          = []
+mapTwoR _ (x:[])      = [x]
 mapTwoR func (x:y:zs) = func x y ++ mapTwoR func zs
 
 -- Starting by the right doubles every even item in the list
